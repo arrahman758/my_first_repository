@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduce Myself</title>
+</head>
+<body style="background-color: powderblue; margin: 10px; font-size: medium;">
+
+    <!-- Main Heading -->
+    <h1 style="border: 1px solid black; font-family: 'Courier New', Courier, monospace;">My Profile</h1>
+
+    <!-- Intro and Image in one row -->
+    <table style="width: 100%;">
+        <tr>
+            <!-- Intro on left -->
+            <td style="vertical-align: top; width: 70%;">
+                <p style="font-size: larger;">
+                    I am  <strong>  Atta ur Rahman</strong>  son of Javid Iqbal. <br>I hold a degree in Islamic Studies and have 
+                    completed a <b> BA</b> Mufti course, and other related qualifications.
+                </p>
+            </td>
+
+            <!-- Image on right -->
+            <td style="text-align: right; width: 30%;">
+                <img src="my_pic.jpg" alt="My Picture" width="150">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Hobbies -->
+    <h2 style="border: 1px solid black; font-family: 'Courier New', Courier, monospace;">My Hobbies</h2>
+    <ul>
+        <li style="font-size: medium;">Reading</li>
+        <li style="font-size: medium;">Programming</li>
+        <li style="font-size: medium;">Honesty</li>
+        <li style="font-size: medium;">Hard Working</li>
+    </ul>
+
+    <!-- Education Table -->
+    <h2>My Qualifications</h2>
+    <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+        <tr>
+            <th style="border: 1px solid black; padding: 5px;">Qualification</th>
+            <th style="border: 1px solid black; padding: 5px;">Institution</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px;">Master in Islamic Studies</td>
+            <td style="border: 1px solid black; padding: 5px;">Jamia Haqqania Akhora Khattak</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px;">B.A</td>
+            <td style="border: 1px solid black; padding: 5px;">Allama Iqbal Open University</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px;">PhD in Islamic Fiqh</td>
+            <td style="border: 1px solid black; padding: 5px;">Jamia Taleem ul Quran Swat</td>
+        </tr>
+    </table>
+
+    <!-- Contact Form -->
+    <h2>Contact</h2>
+    <form onsubmit="event.preventDefault(); alert('Message Sent!');">
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Message: <textarea name="message" cols="30" rows="4"></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+<!--the End-->
+</body>
+</html>
